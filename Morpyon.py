@@ -52,7 +52,7 @@ while etat!=0:
         case[choix-1]="0"
         joueur=joueur+1
         partie(case)
-    elif case[choix-1]==" " and joueur%2==0 and bot==0:
+    elif case[choix-1]==" " and joueur%2==0:
         case[choix-1]="X"
         joueur=joueur+1
         partie(case)
